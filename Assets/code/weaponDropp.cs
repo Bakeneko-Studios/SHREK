@@ -6,9 +6,10 @@ public class weaponDropp : MonoBehaviour
 {
     // Start is called before the first frame update
     public int weapon;
+
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

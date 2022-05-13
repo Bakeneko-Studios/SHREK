@@ -39,10 +39,6 @@ public class weapon : MonoBehaviour
                 respawned = false;
                 StartCoroutine(respawn());
             }
-            else
-            {
-                player.GetComponent<WeaponSystem>().RemoveWeapon();
-            }
             
         }
     }
